@@ -1,8 +1,8 @@
 <template>
     <div
-        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 max-w-screen-lg md:px-4 justify-center">
+        class="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 max-w-screen-lg md:px-5 justify-center">
         <a v-for="(card, index) in cards" :key="index" :href="card.link"
-            class="block max-w-md p-5 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+            class="block max-w-lg p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100">
             <Icon name="tdesign:money" class="text-green-500 text-3xl mb-2"/>
             <h2 class="mb-1 text-lg font-bold tracking-tight text-gray-600 dark:text-white">{{ card.title }}</h2>
             <p class="mb-2 text-sm text-gray-700 dark:text-gray-400">{{ card.description }}</p>

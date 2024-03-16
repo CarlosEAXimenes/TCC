@@ -12,12 +12,12 @@
 
     <!-- drawer component -->
     <div id="drawer-navigation"
-        class="fixed top-0 left-0 z-40 w-64 h-screen p-4 overflow-y-auto transition-transform -translate-x-full bg-gray-50 md:translate-x-0"
+        class="fixed top-0 left-0 z-40 w-64 h-screen p-4 overflow-y-auto transition-transform -translate-x-full bg-gray-50 lg:translate-x-0"
         tabindex="-1" aria-labelledby="drawer-navigation-label">
         <h5 id="drawer-navigation-label" class="text-base font-semibold text-gray-500 uppercase dark:text-gray-400">Menu
         </h5>
         <button type="button" data-drawer-hide="drawer-navigation" aria-controls="drawer-navigation"
-            class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg lg:hidden text-sm p-1.5 absolute top-2.5 end-2.5 inline-flex items-center dark:hover:bg-gray-600 dark:hover:text-white">
+            class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg lg:hidden text-sm p-1.5 absolute top-2.5 end-2.5 inline-flex items-center">
             <svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
                 xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd"
